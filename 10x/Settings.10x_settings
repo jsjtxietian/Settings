@@ -241,7 +241,7 @@ CloseFindPanelOnEnter:                 false
 ReverseFindSelection:                  false
 
 # Show the match count in the find panel text box
-ShowFindTextMatchCount:                false
+ShowFindTextMatchCount:                true
 
 # How to set the initial text when the find/replace text panel is shown. Current means use the current word, Selected means use the current selection. Values: (None, Current, Selection)
 # Valid values: None, Current, Selection

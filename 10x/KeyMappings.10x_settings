@@ -419,7 +419,8 @@ Shift Home:                  SelectToLineStart
 Shift End:                   SelectToLineEnd
 
 # Show the FindInFiles panel
-Control Shift G:             FindInFiles
+# Control Shift G:             FindInFiles
+Control Shift G:             FindCommitInUE
 
 # Show the ReplaceInFiles panel
 Control Shift H:             ReplaceInFiles
