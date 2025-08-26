@@ -60,6 +60,10 @@ SaveAsUsesPrevPanelPath:               true
 # Update to the early access builds. Builds are released on early access before general release.
 EarlyAccessUpdates:                    false
 
+# The default line ending to use for new files
+DefaultLineEnding:                     CRLF
+
+
 # 
 # Accessibility
 # 
@@ -241,7 +245,7 @@ CloseFindPanelOnEnter:                 false
 ReverseFindSelection:                  false
 
 # Show the match count in the find panel text box
-ShowFindTextMatchCount:                false
+ShowFindTextMatchCount:                true
 
 # How to set the initial text when the find/replace text panel is shown. Current means use the current word, Selected means use the current selection. Values: (None, Current, Selection)
 # Valid values: None, Current, Selection
@@ -336,6 +340,10 @@ MoveToNextWordMode:                    WordStart
 # Controls whether select prev/next word (ctrl+shift+left/right) selects to the word start or end. auto chooses based on direction.
 # Valid values: WordStart, WordEnd, auto
 SelectNextWordMode:                    WordStart
+
+# Track the active file in the workspace tree
+TrackActiveFileInWorkspaceTree:        true
+
 
 # 
 # Edit
@@ -482,6 +490,10 @@ FormatEquals:                          true
 
 # If true make sure there are no spaces before commas chars and 1 space after
 FormatCommas:                          true
+
+# Comma separated list of words to not format
+FormatExcludeList:                     
+
 
 # 
 # SourceControl
