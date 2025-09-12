@@ -95,10 +95,10 @@ Control Shift U:             MakeSelectionUppercase
 Control U:                   MakeSelectionLowercase
 
 # Move current line up one
-Control Shift Up:            MoveLineUp
+Alt Up:            MoveLineUp
 
 # Move current line down one
-Control Shift Down:          MoveLineDown
+Alt Down:          MoveLineDown
 
 # Cut the current line
 Shift Delete:                CutLine
@@ -110,10 +110,10 @@ Control Shift L:             DeleteLine
 Control T:                   ShowInWorkspaceTree
 
 # Add a new cursor on the line above
-Shift Alt Up:                MultiCursorMoveUp
+Control Alt Up:                MultiCursorMoveUp
 
 # Add a new cursor on the line below
-Shift Alt Down:              MultiCursorMoveDown
+Control Alt Down:              MultiCursorMoveDown
 
 # Increase selection end for all multi-cursors
 Shift Alt Left:              MultiCursorMoveLeft
@@ -179,10 +179,10 @@ Control Alt Left:            MovePanelLeft
 Control Alt Right:           MovePanelRight
 
 # Move the current panel up
-Control Alt Up:              MovePanelUp
+# Control Alt Up:              MovePanelUp
 
 # Move the current panel down
-Control Alt Down:            MovePanelDown
+# Control Alt Down:            MovePanelDown
 
 # Move the current panel focus left
 # Alt Left:                    MovePanelFocusLeft
@@ -248,7 +248,7 @@ Shift Alt S:                 FindSymbol
 Shift Alt F:                 FindSymbolReferences
 
 # Rename the current symbol
-Control R:                   RenameSymbol
+F2:                   RenameSymbol
 
 # Submit the current symbol rename
 Enter:                       SubmitRenameSymbol
@@ -338,7 +338,7 @@ Control F2:                  ToggleBookmark
 Shift F2:                    PrevBookmark
 
 # Go to the next bookmark
-F2:                          NextBookmark
+# F2:                          NextBookmark
 
 # Go to the previous bookmark in the current file
 Shift Alt F2:                PrevBookmarkInFile

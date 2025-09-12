@@ -413,7 +413,7 @@ TextDrag:                              true
 EndKeyUpdatesRectSelect:               true
 
 # Enable colouring of braces and brackets based on depth
-ColorBracesByDepth:                    false
+ColorBracesByDepth:                    true
 
 # Allow editing of read only files
 AllowEditingOfReadOnlyFiles:           true
@@ -431,10 +431,10 @@ Vim:                                   false
 AutoFormat:                            true
 
 # Automatically add a close brace after typing an open brace
-AutoAddCloseBrace:                     false
+AutoAddCloseBrace:                     true
 
 # Automatically add a close brace and format the braces
-AutoAddCloseBraceAndFormat:            false
+AutoAddCloseBraceAndFormat:            true
 
 # If true the open brace will be moved to the next line on auto-format
 OpenBraceOnNewLine:                    true
@@ -446,10 +446,10 @@ UpdateIndentsOnCloseBrace:             true
 AutoIndentBraces:                      true
 
 # When pressing Enter between {} braces move the braces to new lines
-FormatBracesOnEnterSplit:              false
+FormatBracesOnEnterSplit:              true
 
 # Automatically add a close bracket after typing an open bracket
-AutoAddCloseBracket:                   false
+AutoAddCloseBracket:                   true
 
 # Align function arguments lines to the function open bracket
 BracketAlignFunctionArgs:              true
