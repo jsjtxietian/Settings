@@ -151,7 +151,7 @@ VerticalLineGap:                       1
 UIScale:                               1.75
 
 # The current color scheme for all UI elements. Can be 'default'
-ColorScheme:                           VS-Classic
+ColorScheme:                           VS+VAX Light
 
 # Hide the main menu when not in use. Mouse Over to make visible.
 HideMainMenu:                          false

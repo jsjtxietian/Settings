@@ -32,7 +32,9 @@ Control C:                   Copy
 Control V:                   Paste
 
 # Show the paste history dropdown
-Control Shift V:             PasteHistory
+Control Shift V:             OpenFile
+
+Control Shift I:             AddInclude
 
 # Find text in the current file
 Control F:                   FindInFile
